@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import PokeItem from "../components/PokeItem";
-import Search from "../components/Search";
 import getAllPokemons from "../services/getAllPokemons";
 
 const PokemonList = () => {
@@ -23,7 +22,6 @@ const PokemonList = () => {
       <img src="https://thumbs.gfycat.com/PartialSecretAnaconda-size_restricted.gif" alt="" className='img-fluid' />
     <div>
     <br/>
-    <Search/>
 
     <div className="card">
       {list}
